@@ -2,7 +2,7 @@ const myFizz = 'Fizz';
 
 const myBuzz = 'Buzz';
 
-const myTogether = myBuzz + myFizz;
+const myTogether = myFizz + myBuzz;
 
 for (let i = 1; i <= 100; i++) {
   if (i % 3 === 0 && i % 5 === 0) {
